@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yumzee</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&family=Roboto+Condensed:wght@300;400;700&family=Skranji&family=Ubuntu:wght@500&display=swap"rel="stylesheet"/>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+  </head>
+  <body>
+  
+    <header>
+      <nav>
+        <ul class="sidebar">
+         <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About Us</a></li>
+         <li><a href="services.html">Services</a></li>
+         <li><a href="training.html">Training Programs</a></li>
+         <li><a href="contact.html">Contact Us</a></li>
+           
+        </ul> 
+        <ul>
+          
+        
+         <li ><a href="index.html" class="logo"><i class="bx bxs-home"></i>Yumzee</a></li>
+         <li class="hideOnMobile"><a href="index.html">Home</a></li>
+         <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+         <li class="hideOnMobile"><a href="services.html">Services</a></li>
+         <li class="hideOnMobile"><a href="training.html">Training Programs</a></li>
+         <li class="hideOnMobile"><a href="contact.html">Contact Us</a</li>
+           <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        
+        </ul>
+       </nav>
+     </header>
+   
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26398.76015458489!2d74.33128565331879!3d34.20143602283881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e10768ae7739dd%3A0xc5cefc0b98abbd8!2sBaramulla%20193101!5e0!3m2!1sen!2sin!4v1690886247245!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    
+    
+    <!--footer-->
+    <section class="footer">
+    <h4 class="middle"> Have questions or feedback? Reach out to us – we're here to help!</h4>
+    <p>
+       </p>
+    
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <span class="material-symbols-outlined">Phone</span>
+                    <span><h5>9821619688</h5>
+                    <p>Monday to sunday from 9am to 10Pm</p></span>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">home</span>
+                    <span><h5>Bhat Complex near HDFC Bank Baramulla</h5>
+                    <p>Jammu and Kashmir</p></span>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">email</span>
+                    <span><h5></h5>
+                    <p>Email us for Query</p></span>
+                </div>
+                </div>
+                <div class="contact-col">
+                <form action="https://formspree.io/f/xjvqgepl" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="Email" name="email"placeholder="Enter Email address " required>
+                    <input type="text" name="subject"placeholder="Enter Your subject" required>
+                    <textarea  rows="8" name="message"placeholder="Message"></textarea>
+                    <a href="#contact" class="btn"
+          >Submit <i class="bx "></i
+        ></a>
+                </form>
+    
+                </div>
+           
+    
+        </div>
+    </section>
+    <hr>
+    <footer>
+      <div class="footercontainer">
+          <div class="socialicons">
+              <a href=""> <i class="bx bxl-facebook"></i></a>
+              <a href="https://wa.me/+919821619688" rel="noopener noreferrer">
+                <i class="bx bxl-whatsapp"></i
+              ></a>
+              <a href="https://instagram.com/kathijunctionbaramulla">
+                <i class="bx bxl-instagram-alt"></i
+              ></a>
+  
+          </div>
+          <div class="footernav">
+              <ul> 
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us </a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="training.html">Training</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+          </div>
+          
+      </div>
+      <div class="footbottom">
+          <p class="copyright">
+              Copyright
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              &copy; Designed & Developed by <a href="https://devlify.in/">Devlify</a>. All
+              rights reserved.
+            </p>
+      </div>
+  </footer>
+   
+   
+   <a href="" class="scroll">
+        <i class="bx bx-up-arrow-alt"></i>
+    </a>
+
+    <!-- javascript for toggle menu -->
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display="flex"
+      }
+      function hideSidebar(){
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display='none'
+      }
+    </script>
+  </body>
+</html>
